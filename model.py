@@ -1,6 +1,5 @@
 import os
 from gc import callbacks
-
 import numpy as np
 import tensorflow
 from PIL import Image
