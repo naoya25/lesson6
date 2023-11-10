@@ -69,7 +69,7 @@ early_stopping = EarlyStopping(
 model.fit_generator(
     train_gen,
     steps_per_epoch=35,
-    epochs=20,
+    epochs=10,
     verbose=1,
     validation_data=val_gen,
     callbacks=[early_stopping],
